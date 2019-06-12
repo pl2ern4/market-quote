@@ -17,7 +17,7 @@ Please follow given instruction to run this application in local machine.
 
 2) Open git bash and take checkout of project using command below:
 
-  git clone <git-clone-url>
+  git clone url-of-git
   
   eg: git clone https://github.com/pl2ern4/market-quote.git
   
