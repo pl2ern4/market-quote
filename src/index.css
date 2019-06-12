@@ -1,0 +1,139 @@
+body{
+font-family: 'Bahnschrift Light';
+}
+
+::-webkit-input-placeholder { /* Edge */
+   color: grey;  padding: 1px;
+
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:grey;
+  padding: 1px;
+}
+
+::placeholder {
+  color: grey;
+  padding: 6px;
+}
+
+.dropdown.input-group-prepend{
+  background-color: #bdbbbb73;
+}
+
+.error{
+  color: red;
+  font-size: small;
+  font-weight: 600;
+}
+
+hr{
+  color: #00d0ff;
+  border-width: 0.25vh;
+  border-style: solid;
+  margin: 0;
+}
+ .required {
+  color: red;
+  font-size: unset;
+  font-weight: 800;
+}
+.currency {
+  margin-right: 0.2rem;
+  font-size: 1.5rem;
+}
+.amount{
+  color: #44d3da;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+label{
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #a7a6a6;
+}
+
+.btn-primary{
+  display: block;
+  margin: 0 auto;
+  border-radius: 8rem;
+  width: 100%;
+  text-transform: capitalize; 
+}  
+.grey-background{
+  background: #d3d3d33d;
+}
+.result-quote p{
+  margin-bottom: unset;
+  margin-top: unset;
+}
+
+.rate{
+  color:#55bd7e;  
+  font-size: 2rem;
+  font-weight: 400; 
+}
+.converted-amount {
+  text-align: left;
+  margin-left: 38%;
+  font-size: larger;
+  font-weight: 400;
+}
+
+.result-quote button{
+  margin: 2rem 0 0 0;
+}
+
+.result-quote{
+  text-align: center;
+}
+
+.ofx-rate-heading {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.heading {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+@media only screen and (max-width : 768px) {
+  /* Mobile device, smart phones*/
+  .form-row{
+    display: unset!important;
+  }
+}
+
+@media (min-width : 768px) {
+  /* For desktop and ipad only*/
+  .currency-input {
+    margin: 0 1rem 0px 0px;
+  }
+  .main-div {
+    margin: auto;
+    padding: 2vw;
+    width: 70%;
+  }
+  .amount-input.form-group {
+    width: 50%;
+    margin: 0 0 1rem 1rem;
+  }
+  .btn-primary{
+    display: block;
+    margin: 0 auto;
+    border-radius: 8rem;
+    width:25%;
+    text-transform: capitalize; 
+  }  
+  .result-quote button{
+    width: 5rem;
+    margin: 5% 0 1% 40%;
+    height: 2rem;
+  }
+  .personal-div{
+    margin:2rem;
+  }
+  .quote-detail>.form-row{
+    margin:0 1rem 0 1rem;
+  }
+}
