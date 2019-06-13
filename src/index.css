@@ -48,6 +48,10 @@ hr{
   font-size: 1.5rem;
 }
 
+button#input-group-dropdown-1{
+  width: 8rem;
+}
+
 label{
   font-size: 0.8rem;
   font-weight: 600;
