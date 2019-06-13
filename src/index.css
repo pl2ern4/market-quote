@@ -126,7 +126,7 @@ label{
     text-transform: capitalize; 
   }  
   .result-quote button{
-    width: 5rem;
+    width:12rem;
     margin: 5% 0 1% 40%;
     height: 2rem;
   }
@@ -135,5 +135,10 @@ label{
   }
   .quote-detail>.form-row{
     margin:0 1rem 0 1rem;
+  }
+  .result-Error {
+    color: red;
+    font-size: larger;
+    font-weight: 400;
   }
 }

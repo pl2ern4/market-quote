@@ -7,7 +7,8 @@ async function getData(url,newHeaders=headers, payload={}, method='GET'){
         fetch(url,newHeaders)
         .then(data=>{
             if(!data.ok){
-                throw Error(data.statusText);
+                console.log(data)
+                return false;
             }
             return data.json();
         })

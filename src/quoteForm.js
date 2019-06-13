@@ -138,7 +138,7 @@ export default class QuoteForm extends Component{
           </Form.Group>
           {this.state.isSameCurrency && <p><span className="error">Conversion currency cannot be same.</span></p>}
           <Button variant="primary" type="submit">
-            get quote
+             GET QUOTE
           </Button>
         </div>
     </Form>
