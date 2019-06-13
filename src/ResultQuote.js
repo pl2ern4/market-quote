@@ -2,7 +2,6 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 
 export default function ResultQuote(params){
-    
     return (
         <div className="grey-background result-quote">
             {!params.quote &&

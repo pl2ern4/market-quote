@@ -29,9 +29,9 @@ font-family: 'Bahnschrift Light';
 
 hr{
   color: #00d0ff;
-  border-width: 0.25vh;
-  border-style: solid;
-  margin: 0;
+  border-style: groove;
+  background-color: #00d0ff;
+  margin: 0 0 0.5rem 0;
 }
  .required {
   color: red;
@@ -87,6 +87,7 @@ label{
 
 .result-quote{
   text-align: center;
+  height: 50%;
 }
 
 .ofx-rate-heading {

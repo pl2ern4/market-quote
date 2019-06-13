@@ -7,16 +7,14 @@ async function getData(url,newHeaders=headers, payload={}, method='GET'){
         fetch(url,newHeaders)
         .then(data=>{
             if(!data.ok){
-                console.log(data)
-                return false;
+                return null;
             }
             return data.json();
         })
         .then(data=>resolve(data))
         .catch(function(error) {
-            
             console.log('Looks like there was a problem: \n', error);
-            reject(error);
+            return null;
         });
       }).then(data=>data)      
 }
