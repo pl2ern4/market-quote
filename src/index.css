@@ -52,6 +52,10 @@ button#input-group-dropdown-1{
   width: 8rem;
 }
 
+.dropdown-toggle::after {
+  margin-left: 3.255em
+}
+
 label{
   font-size: 0.8rem;
   font-weight: 600;
@@ -110,6 +114,9 @@ label{
   hr{
     margin: 0.1rem 0 0.1rem 0;
   }
+  .quote-detail{
+    height: 100%;
+  }
 }
 
 @media (min-width : 768px) {
@@ -147,6 +154,9 @@ label{
   }
   .quote-detail>.form-row{
     margin:0 1rem 0 1rem;
+  }
+  .quote-detail{
+    height: 14rem;
   }
   .result-Error {
     color: red;
